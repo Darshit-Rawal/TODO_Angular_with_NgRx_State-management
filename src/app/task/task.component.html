@@ -1,0 +1,12 @@
+<h1 class="center-text">TODO List</h1>
+
+<div class="center">
+  <mat-form-field appearance="outline" [style.width.px]=500>
+    <mat-label>Enter Task</mat-label>
+    <input [(ngModel)]="task" matInput autocomplete="off">
+  </mat-form-field>
+  <br>
+  <button class="send" (click)="onAddTask(task)" [disabled]="task == null || task == ''" role="button">
+    <mat-icon class="icon">send</mat-icon>
+  </button>
+</div>

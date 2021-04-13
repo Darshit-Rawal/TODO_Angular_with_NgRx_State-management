@@ -1,0 +1,12 @@
+<div class="center">
+  <mat-card
+  class="card"
+  *ngFor="let task of tasks; let i = index"
+  [ngStyle]="style"
+  >
+  <span (click)="onCardClick(task.id)" style="cursor: pointer;">{{ task.task }}</span>
+  <mat-icon class="icon" id="edit" (click)="onEdit(task.id)" *ngIf="task.status === false">edit</mat-icon>
+  <mat-icon class="icon" id="delete" (click)="onDelete(task.id)">delete</mat-icon>
+  </mat-card>
+
+</div>

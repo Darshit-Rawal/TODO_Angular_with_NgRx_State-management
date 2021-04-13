@@ -1,0 +1,106 @@
+.input{
+  background-color: #f0f0f0;
+  margin-top: 2%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2%;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.center{
+  text-align: center;
+  padding-top: 2%;
+  border: 3px solid #a1a1a1;
+  width: 50%;
+  margin: auto;
+  background-color: #424242;
+  margin-top: 4%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  box-shadow: 15px 20px 12px #000000;
+}
+
+.center-text{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  margin-top: 3%;
+  color: white;
+  font-family: 'Righteous', cursive;
+  text-shadow: 10px 6px 5px #000000;
+}
+
+.heading{
+  margin-top: 3%;
+}
+
+.send{
+  border-radius: 50%;
+  padding: 1.5%;
+  background-color: #bb86fc;
+  margin-top: 1%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/*
+.send:hover{
+  background-color: white;
+  border: 2px solid #bb86fc;
+}
+
+.send:hover .icon{
+  color: #bb86fc;
+} */
+
+.icon{
+  color: whitesmoke;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+/* button:disabled:hover,
+button[disabled]:hover{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+button:disabled:hover .icon,
+button[disabled]:hover .icon{
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+} */
+
+
+/* .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: white;
+} */
+
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #ff7aaf!important;
+  font-weight: bold;
+}
+
+::ng-deep .mat-form-field-label {
+  color: white!important;
+}
+
+input.mat-input-element {
+  color: white;
+}
+
+input{
+  width: 100%;
+}
+

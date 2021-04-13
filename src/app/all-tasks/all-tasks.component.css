@@ -1,0 +1,43 @@
+.center{
+  width: 60%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card{
+  box-shadow: 5px 5px 4px #000000;
+  border: 1px solid black;
+  margin-top: 1.5%;
+  -webkit-transition: 0.5s ease;
+  color: black;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.card:hover{
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+#edit{
+  position: absolute;
+  right: 0px;
+  margin-right: 9%;
+  cursor: pointer;
+}
+
+#delete{
+  position: absolute;
+  right: 0px;
+  margin-right: 4%;
+  cursor: pointer;
+}
+
+
+
+
